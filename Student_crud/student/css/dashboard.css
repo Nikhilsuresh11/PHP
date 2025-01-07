@@ -1,0 +1,83 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Welcome Section */
+.welcome-section h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #ffdd57;
+}
+
+.welcome-section p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+/* Links Section */
+.links-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard-link {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.dashboard-link:hover {
+    background: #fff;
+    color: #2575fc;
+    border-color: #2575fc;
+}
+
+.logout-link {
+    background: #ff4e50;
+    border: 1px solid #ff4e50;
+}
+
+.logout-link:hover {
+    background: #fff;
+    color: #ff4e50;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .welcome-section h1 {
+        font-size: 1.8em;
+    }
+    .dashboard-link {
+        font-size: 1em;
+        padding: 10px;
+    }
+}

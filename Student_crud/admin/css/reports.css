@@ -1,0 +1,72 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the reports */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table header styles */
+table thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Table row hover effect */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Table cell styles */
+table th {
+    font-weight: bold;
+}
+
+/* Responsive table styling for smaller screens */
+@media (max-width: 768px) {
+    table, table th, table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

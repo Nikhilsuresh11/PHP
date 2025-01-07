@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cdcbcb; /* Changed to light grey */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+
+}
+
+
+/* Admin Button */
+.admin-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.admin-button a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #3d8bfd;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    font-size: 0.9em;
+}
+
+.admin-button a:hover {
+    background: #2761d4;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* You can adjust the width if needed */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #3d8bfd;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Submit Button Styling */
+button.submit-btn {
+    background-color: #3d8bfd;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button.submit-btn:hover {
+    background-color: #2761d4;
+}
+
+/* Existing User Section */
+.existing-user {
+    margin-top: 20px;
+}
+
+.existing-user p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.existing-user .login-btn {
+    color: #3d8bfd;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.existing-user .login-btn:hover {
+    color: #2761d4;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .form-container {
+        padding: 30px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
